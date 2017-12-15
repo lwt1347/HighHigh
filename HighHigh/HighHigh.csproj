@@ -219,7 +219,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\NewBehaviourScript.cs" />
+    <Compile Include="Assets\02.Scripts\01.Scene-Main\MainUIManager.cs" />
+    <Compile Include="Assets\02.Scripts\02.Scene-Play\CameraFollow.cs" />
+    <Compile Include="Assets\02.Scripts\02.Scene-Play\GameManager.cs" />
+    <Compile Include="Assets\02.Scripts\02.Scene-Play\IGameObject.cs" />
+    <Compile Include="Assets\02.Scripts\02.Scene-Play\MainGround.cs" />
+    <Compile Include="Assets\02.Scripts\02.Scene-Play\MoveBackGround_Physics.cs" />
+    <Compile Include="Assets\02.Scripts\02.Scene-Play\Player.cs" />
+    <Compile Include="Assets\02.Scripts\02.Scene-Play\Singleton.cs" />
+    <Compile Include="Assets\02.Scripts\02.Scene-Play\Wall.cs" />
+    <Compile Include="Assets\02.Scripts\03.Scene-End\EndUIManager.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
